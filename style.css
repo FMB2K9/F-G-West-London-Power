@@ -1,0 +1,141 @@
+/* General Body Styles */
+body {
+    font-family: 'sans-serif';
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #0A2342;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #FFFFFF; /* Changed to white for better logo contrast */
+    color: #0A2342;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #0A2342;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+    color: #FFD300;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0A2342;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #FFD300;
+    color: #0A2342;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Preview Section */
+.about-preview {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Main Content Section */
+.main-content {
+    padding: 60px 0;
+}
+
+.main-content h2 {
+    color: #0A2342;
+    margin-bottom: 20px;
+}
+
+/* Team Members */
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+/* Contact Form */
+#contact-form {
+    margin-top: 30px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.contact-info {
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #0A2342;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
